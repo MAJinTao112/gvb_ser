@@ -35,19 +35,19 @@ site_info:
   github_url: https://github.com/fengfengzhidao/
 qi_niu:
   enable: true
-  access_key: pA59BxSO1FHlBaIaV58bbCYa9F99aqqWjFA4F__X
-  secret_key: mkAsAx0nJN5pbUFWdC4e7Xu0Mx8fG6839Mr_AUZc
-  bucket: haitao112
-  cdn: t35g12nrv.hn-bkt.clouddn.com/
+  access_key: 
+  secret_key: 
+  bucket: 
+  cdn: /
   zone: z2
   prefix: gvb
   size: 5
   
 email:
-  host: smtp.qq.com
+  host: 
   port: 465
-  user: 398886755@qq.com
-  password: kidrlpildlhwcbce
+  user: 
+  password: 
   default_from_email: 马海涛
   use_ssl: true
   user_tls: true
