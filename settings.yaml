@@ -22,7 +22,7 @@ site_info:
   created_at: "2023-02-12"
   qq_image: http:fengfengzhidao.com/static/my/img/footer/qq.png
   version: 6.0.2
-  email: 398886755@qq.com
+  email: 3988xxxx
   wechat_image: http:fengfengzhidao.com/static/my/img/footer/wechat.png
   name: mama海涛
   job: 后端开发
@@ -35,10 +35,10 @@ site_info:
   github_url: https://github.com/fengfengzhidao/
 qi_niu:
   enable: true
-  access_key: pA59BxSO1FHlBaIaV58bbCYa9F99aqqWjFA4F__X
-  secret_key: mkAsAx0nJN5pbUFWdC4e7Xu0Mx8fG6839Mr_AUZc
-  bucket: haitao112
-  cdn: t35g12nrv.hn-bkt.clouddn.com/
+  access_key: pxxxx
+  secret_key: mxxxx
+  bucket: haxxx
+  cdn: t3xxxx
   zone: z2
   prefix: gvb
   size: 5
@@ -46,9 +46,9 @@ qi_niu:
 email:
   host: smtp.qq.com
   port: 465
-  user: 398886755@qq.com
-  password: kidrlpildlhwcbce
-  default_from_email: 马海涛
+  user: xxxx
+  password: xxxxx
+  default_from_email: xxx
   use_ssl: true
   user_tls: true
 jwt:
