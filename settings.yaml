@@ -1,0 +1,75 @@
+mysql:
+  host: host.docker.internal
+  port: 3306
+  user: root
+  config: "charset=utf8mb4&parseTime=True&loc=Local"
+  password: root
+  db: gvb_db
+  log_level: dev
+system:
+  host: 0.0.0.0
+  port: 8080
+  env: dev
+logger:
+  level: info
+  prefix: '[gvb]'
+  director: log
+  show_line: true
+  log-in-console: true
+site_info:
+  title: 海涛的个人博客
+  bei_an: 湘ICP备2023000000号
+  created_at: "2023-02-12"
+  qq_image: http:fengfengzhidao.com/static/my/img/footer/qq.png
+  version: 6.0.2
+  email: 398886755@qq.com
+  wechat_image: http:fengfengzhidao.com/static/my/img/footer/wechat.png
+  name: mama海涛
+  job: 后端开发
+  addr: 中国 武汉
+  slogan: jin涛博客
+  slogan_en: haitao blog
+  web: https://www.fengfengzhidao.com
+  bilibili_url: https://space.bilibili.com/433296326
+  gitee_url: https://gitee.com/fengfengzhidao
+  github_url: https://github.com/fengfengzhidao/
+qi_niu:
+  enable: true
+  access_key: pA59BxSO1FHlBaIaV58bbCYa9F99aqqWjFA4F__X
+  secret_key: mkAsAx0nJN5pbUFWdC4e7Xu0Mx8fG6839Mr_AUZc
+  bucket: haitao112
+  cdn: t35g12nrv.hn-bkt.clouddn.com/
+  zone: z2
+  prefix: gvb
+  size: 5
+  
+email:
+  host: smtp.qq.com
+  port: 465
+  user: 398886755@qq.com
+  password: kidrlpildlhwcbce
+  default_from_email: 马海涛
+  use_ssl: true
+  user_tls: true
+jwt:
+  secret: xxxxxx
+  expires: 2
+  issuer: xx
+qq:
+  app_id: xx
+  key: xx
+  redirect: http://xx.xx.com/login?flag=qq
+
+upload:
+  size: 2
+  path: uploads/file
+redis:
+  ip: host.docker.internal
+  port: 6379
+  password:
+  pool_size: 100
+es:
+  host: host.docker.internal
+  port: 9200
+  user:
+  password:
